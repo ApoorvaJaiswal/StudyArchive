@@ -1,0 +1,322 @@
+
+#dia{
+	text-align:center;
+	padding-top:10px;
+	width:300px;
+	height:40px;
+	color:white;
+	font-family:Calibri;
+	font-size:20px;
+	letter-spacing:2px;
+	margin:auto;
+	position:fixed;
+	background-color:black;
+	top:290px; 
+	left:480px;
+}
+a{
+	text-decoration:none;
+	color:inherit;
+}
+
+#logo{
+	font-size:40px;
+	font-family:Gabriola;
+	margin:10px;
+	margin-left:20px;
+	letter-spacing:4px;
+	float:left;
+	color:white;
+	
+}
+body{
+	background-image:url('im.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+#topPart{
+	float:right;
+	margin-top:40px;
+	margin-left:400px;
+}
+#topPart div{
+	margin-top:5px;
+	margin-right:10px;
+	display:inline;
+	font-family:Calibri;
+	font-size:20px;
+	color:white;
+}
+#home, #about, #contact, #dashboard,#news,#logout{
+	margin-left:15px;
+	margin-right:15px;
+	padding:6px;
+	letter-spacing:2px;
+}
+#home:hover, #about:hover, #contact:hover, #dashboard:hover,#logout:hover{
+	outline:1px solid white;
+}
+#sign,#login{
+	margin-top:100px;
+	margin-right:60px;
+	clear: right;
+	float:right;
+	outline:1px solid white;
+	width:260px;
+	height:310px;
+	color:white;
+	font-family:Calibri;
+	letter-spacing:3px;
+}
+.signUp{
+	margin-left:30px;
+}
+.signUp:hover{
+	cursor:pointer;
+	text-decoration:underline;	
+}
+.logIns:hover{		
+	cursor:pointer;
+	text-decoration:underline;	
+}
+#first, #last, #email1,#password1{
+	height:25px;
+	width:230px;
+	margin-bottom:7px;
+	margin-left:5px;
+	background:none;
+	color:white;
+	font-family:Calibri;
+}
+#button1{
+	height:30px;
+	width:230px;
+	margin-left:7px;
+	margin-top:3px;
+	background:none;
+	outline:1px solid white;
+	color:white;
+}
+#button1:hover{
+	cursor:pointer;
+}
+#button2{
+	height:30px;
+	width:230px;
+	margin-top:110px;
+	margin-left:7px;
+	background:none;
+	outline:1px solid white;
+	color:white;
+}
+#button2:hover{
+	cursor:pointer;
+}
+#email2, #password2{
+	height:30px;
+	width:230px;
+	margin-bottom:7px;
+	margin-left:5px;
+	background:none;
+	color:white;
+	font-family:Calibri;
+}
+#selects{
+	height:25px;
+	width:235px;
+	margin-bottom:5px;
+	margin-left:5px;
+	background:none;
+	color:white;
+	font-family:Calibri;
+}
+option{
+	color:black;
+}
+#titles{
+	font-family:Calibri;
+	font-size:30px;
+	color:white;
+	margin-left:200px;
+	float:left;	
+	letter-spacing:2px;
+	margin-top:10px;
+}
+.container1{
+	background-image: url("im.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container3{
+	background-image: url("im.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container2{
+	background-image: url("im.jpg");
+    min-height: 500px;
+	margin-left:-20px;
+	margin-right:-20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#latestNews{
+	background:none;
+	background:rgba(225, 225, 225, .8);
+	font-family:Gabriola;
+	font-size:17px;
+	min-height: 200px;
+	margin-left:-8px;
+	margin-right:-8px;
+	padding:20px;
+	padding-bottom:30px;
+}
+#notes{
+	background-color:white;
+	font-family:Calibri;
+	font-size:15px;
+	min-height:200px;
+	padding:20px;
+	
+}
+.headings{
+	text-align:center;
+	font-family:Cooper Black;
+	font-size:30px;
+}
+#selectBranch{
+	height:40px;
+	margin-left:120px;
+	font-family:Calibri;
+	font-size:20px;
+	min-width:50px;
+}
+.selectCourse{
+	height:40px;
+	margin-left:120px;
+	font-family:Calibri;
+	font-size:20px;
+	min-width:50px;
+	display:inline;
+}
+.notesDisplay{
+	font-family:Calibri;
+	margin-left:90px;
+	font-size:25px; 
+	display: inline;
+	margin-left:60px;
+	margin-right:30px;
+	outline:1px solid gray;
+	padding:8px;
+	margin-bottom:40px;
+}
+.lockDisplay{
+	margin-left:90px; 
+	font-family:Calibri;
+	color:black;
+	display: inline;
+	margin-left:60px;
+	font-size:25px; 
+	margin-right:30px;
+	outline:1px solid gray;
+	padding:8px;
+	margin-bottom:40px;
+	background-image: url("locks.png");
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#studyTitle{
+	text-align:center;
+	font-family:Cooper Black;
+	font-size:30px;
+	margin-bottom:30px;
+}
+#notesButton{
+	height:40px;
+	margin-left:120px;
+	font-family:Calibri;
+	font-size:20px;
+	min-width:50px;
+	background:none;
+}
+#enterNews{
+	clear:both; 
+	width:800px;
+	height:720px;
+	margin-left:250px;
+	outline:1px solid white; 
+	background:rgba(225, 225, 225, .2);
+}
+#preview{
+	clear:both;
+	margin-left:240px;
+	margin-top:300px;
+	outline:1px solid white;
+	color:white;
+	font-family:Calibri;
+	font-size:20px;
+	width:300px;
+	height:70px;
+	padding-top:40px;
+	text-align:center;
+}
+#member{
+	clear:both;
+	margin-left:800px;
+	margin-top:130px;
+	outline:1px solid white;
+	color:white;
+	font-family:Calibri;
+	width:500px;
+	height:480px;
+}
+#memberTitle{
+	font-size:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
+#yearly,#halfYearly{
+	outline:1px solid white;
+	width:200px;
+	height:140px;
+	text-align:center;
+	padding:20px;
+	margin:15px;
+	font-size:28px;
+}
+#yearlyForm, #halfYearlyForm{
+	margin-left:30px;
+	margin-top:80px;
+}
+.year,.half{
+	float:left;
+}
+.prev{
+	position:absolute;
+}
+#halfYearly{
+	outline:1px solid white;
+	width:200px;
+	height:140px;
+	text-align:center;
+	padding:20px;
+	margin:15px;
+	font-size:30px;
+}
+#titleNews{
+	margin-left:340px;
+	padding-top:20px;
+	color:white; 
+	font-family:Calibri;
+	font-size:30px; 
+}
